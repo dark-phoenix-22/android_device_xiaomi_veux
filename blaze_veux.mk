@@ -18,13 +18,13 @@ IS_OFFICIAL := true
 # Inherit from veux device
 $(call inherit-product, device/xiaomi/veux/device.mk)
 
-# Inherit some common PixelOS
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+# Inherit some common blaze
+$(call inherit-product, vendor/blaze/config/common_full_phone.mk)
 
-PRODUCT_NAME := aosp_veux
+PRODUCT_NAME := blaze_veux
 PRODUCT_DEVICE := veux
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := POCO
 PRODUCT_MODEL := POCO X4 Pro 5G
-
+BLAZE_MAINTAINER := SIDDHANT(dark-phoenix-22)
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
