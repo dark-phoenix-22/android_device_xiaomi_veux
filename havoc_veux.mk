@@ -18,7 +18,7 @@ IS_OFFICIAL := true
 # Inherit from veux device
 $(call inherit-product, device/xiaomi/veux/device.mk)
 
-# Inherit some common blaze
+# Inherit some common havoc
 $(call inherit-product, vendor/havoc/config/common_full_phone.mk)
 
 PRODUCT_NAME := havoc_veux
@@ -26,7 +26,5 @@ PRODUCT_DEVICE := veux
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := POCO
 PRODUCT_MODEL := POCO X4 Pro 5G
-BLAZE_MAINTAINER := SIDDHANT(dark-phoenix-22)
-WITH_GAPPS := true
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
