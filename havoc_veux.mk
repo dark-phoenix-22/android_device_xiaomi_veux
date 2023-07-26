@@ -19,9 +19,9 @@ IS_OFFICIAL := true
 $(call inherit-product, device/xiaomi/veux/device.mk)
 
 # Inherit some common blaze
-$(call inherit-product, vendor/derp/config/common_full_phone.mk)
+$(call inherit-product, vendor/havoc/config/common_full_phone.mk)
 
-PRODUCT_NAME := derp_veux
+PRODUCT_NAME := havoc_veux
 PRODUCT_DEVICE := veux
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := POCO
