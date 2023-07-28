@@ -18,7 +18,7 @@ TARGET_SUPPORTS_QUICK_TAP := true
 $(call inherit-product, device/xiaomi/veux/device.mk)
 
 # Inherit some common blaze
-$(call inherit-product, vendor/legion/config/common_full_phone.mk)
+$(call inherit-product, vendor/legion/config/common.mk)
 
 PRODUCT_NAME := legion_veux
 PRODUCT_DEVICE := veux
