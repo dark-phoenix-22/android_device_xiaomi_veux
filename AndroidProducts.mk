@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/legion_veux.mk
+    $(LOCAL_DIR)/syberia_veux.mk
 
 COMMON_LUNCH_CHOICES := \
-    legion_veux-user \
-    legion_veux-userdebug \
-    legion_veux-eng
+    syberia_veux-user \
+    syberia_veux-userdebug \
+    syberia_veux-eng
