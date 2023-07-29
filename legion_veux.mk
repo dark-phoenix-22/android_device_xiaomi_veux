@@ -18,14 +18,12 @@ TARGET_SUPPORTS_QUICK_TAP := true
 $(call inherit-product, device/xiaomi/veux/device.mk)
 
 # Inherit some common blaze
-$(call inherit-product, vendor/legion/config/common.mk)
+$(call inherit-product, vendor/syberia/config/common.mk)
 
-PRODUCT_NAME := legion_veux
+PRODUCT_NAME := syberia_veux
 PRODUCT_DEVICE := veux
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := POCO
 PRODUCT_MODEL := POCO X4 Pro 5G
-LEGION_MAINTAINER := SIDDHANT(dark-phoenix-22)
-WITH_GAPPS := true
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
